@@ -1,0 +1,43 @@
+@font-face {
+  font-family: yeseva;
+  src: url(./assets/YesevaOne-Regular.ttf);
+}
+
+body {
+    background: url('./assets/pexels-pixabay-460537.jpg') no-repeat center center fixed;
+    /*Photo by Pixabay: https://www.pexels.com/photo/clear-wine-glass-with-red-wine-460537/*/
+    background-size: cover;
+    margin: 0;
+
+    font-family: yeseva;
+}
+
+header {
+    background-color: rgba(30, 20, 0, 0.7);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    max-width: 50%;
+}
+
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+    font-size: 25px;
+
+
+    padding: 5px 8px;
+    margin: 0 5px;
+    border: none;
+}
