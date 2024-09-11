@@ -9,10 +9,15 @@ body {
     background-size: cover;
     margin: 0;
 
-    font-family: yeseva;
+    font-family: roboto;
     color: white;
 
     height: 100vh;
+}
+
+h1, h2, h3,
+header p{
+    font-family: yeseva;
 }
 
 header {
@@ -61,7 +66,11 @@ header button {
     display: grid;
 
     gap: 40px;
+
+    font-family: roboto;
 }
+
+
 #content #home-container h1 {
     justify-self: center;
     text-align: center;
