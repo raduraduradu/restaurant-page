@@ -10,6 +10,9 @@ body {
     margin: 0;
 
     font-family: yeseva;
+    color: white;
+
+    height: 100vh;
 }
 
 header {
@@ -21,15 +24,16 @@ header {
     align-items: center;
 }
 
-p {
-    font-size: 30px;
+header p {
+    font-weight: bold;
+    font-size: 40px;
     color: white;
     margin: 0;
-    max-width: 50%;
+    max-width: 65%;
 }
 
 
-button {
+header button {
     color: white;
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
@@ -40,4 +44,33 @@ button {
     padding: 5px 8px;
     margin: 0 5px;
     border: none;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content #home-container {
+    background-color: rgba(30, 20, 0, 0.7);
+    margin: 40px;
+    padding: 15px;
+
+    max-width: 800px;
+
+    display: grid;
+
+    gap: 40px;
+}
+#content #home-container h1 {
+    justify-self: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*Photo by Chan Walrus: https://www.pexels.com/photo/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545/*/
+#content #home-container img {
+    height: 200px;
+    border: 3px solid brown;
+    border-radius: 8px;
 }
