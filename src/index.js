@@ -1,3 +1,6 @@
 import "./style.css"
+import home from "./home.js";
 
-console.log("gooner");
+const content = document.querySelector("#content");
+
+content.appendChild(home);
