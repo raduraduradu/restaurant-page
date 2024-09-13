@@ -54,6 +54,7 @@ header button {
 #content {
     display: flex;
     justify-content: center;
+    white-space: pre-line;
 }
 
 #content #home-container {
@@ -69,7 +70,6 @@ header button {
 
     font-family: roboto;
 
-    white-space: pre-line;
 }
 
 
@@ -90,4 +90,20 @@ header button {
     height: 300px;
     border: 3px solid brown;
     border-radius: 8px;
+}
+
+#menu-container {
+    display: grid;
+    margin: 40px;
+}
+
+.menu-item {
+    background: rgba(30, 20, 0, 0.9);
+    padding: 10px 20px;
+    border: 4px dotted #970;
+    border-radius: 5px;
+}
+
+.menu-item img {
+    width: 300px;
 }
