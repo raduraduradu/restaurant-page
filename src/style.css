@@ -11,6 +11,7 @@ body {
 
     font-family: roboto;
     color: white;
+    font-size: 20px;
 
     height: 100vh;
 }
@@ -110,5 +111,26 @@ header button {
 
 .menu-item img {
     width: 300px;
-    justify-self: center;
+    border: 3px solid #970;
+}
+
+#about-container {
+    margin: 40px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / 5fr 2fr;
+    gap: 50px;
+    width: 100%;
+}
+
+#about-container > * {
+    border-radius: 8px
+}
+
+.about-item {
+    background-color: rgba(30, 20, 0, 0.9);
+    padding: 20px;
+}
+
+#about-container img {
+    height: 250px;
 }
