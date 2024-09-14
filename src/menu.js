@@ -21,6 +21,21 @@ let addItem = (title, photo, description, price) => {
 }
 
 import sarmalejpg from "./assets/sarmale.jpg";
-addItem("sarmale", sarmalejpg, "reteta romaneasca de la turci", "13$");
+addItem("Sarmale", sarmalejpg, "Mince wrapped in cabbage, the traditional romanian recipe", "13$");
+
+import pancakes from "./assets/pancakes.jpg";
+addItem("Pancakes", pancakes, "Sweet fluffy pancakes with syrup and sliced fruit", "15$");
+
+import redpasta from "./assets/pasta.jpg";
+addItem("Cajun Pasta", redpasta, "Penne with chicken savory tomato based sauce", "14$");
+
+import greenpasta from "./assets/grinch-pasta.jpg";
+addItem("Grinch Pasta", greenpasta, "Another Italian classic", "13$");
+
+import sandwich from "./assets/sandwich.jpg";
+addItem("Sandwich", sandwich, "Delicious meaty sandwich", "12$");
+
+import burger from "./assets/burger.jpg";
+addItem("Burger", burger, "Full of flavor beef burger", "14$");
 
 export default menuContainer;

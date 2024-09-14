@@ -94,6 +94,10 @@ header button {
 
 #menu-container {
     display: grid;
+    grid-template: 1fr 1fr / repeat(auto-fill, 380px);
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
     margin: 40px;
 }
 
@@ -106,4 +110,5 @@ header button {
 
 .menu-item img {
     width: 300px;
+    justify-self: center;
 }
